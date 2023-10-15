@@ -1,20 +1,24 @@
+/* Define estilos básicos para o corpo da página */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   background-color: #fbf8cc;
 }
+/* Estilos para a barra de navegação */
 nav {
   text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+/* Define estilos para a lista não ordenada dentro da barra de navegação */
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
 }
+/* Estilos para os links na barra de navegação */
 .links {
   text-decoration: none;
   color: #03045e;
@@ -28,26 +32,31 @@ nav ul {
   display: inline-block;
   border: none;
 }
+/* Estilos quando o mouse passa por cima dos links na barra de navegação */
 .links:hover {
   background-color: #f5ee84;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
+/* Estilos para as imagens dentro da lista da barra de navegação */
 nav ul li img {
   width: 20px;
   height: 20px;
   margin: 20px;
 }
+/* Estilos quando o mouse passa por cima das imagens na barra de navegação */
 nav ul li img:hover {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
+/* Estilos para o nome na barra de navegação */
 .name {
   margin-left: 20px;
   color: #03045e;
   font-family: "Poppins", sans-serif;
   padding-left: 55px;
 }
+/* Estilos para o link de seleção */
 .select {
   text-decoration: none;
   color: #03045e;
@@ -60,18 +69,21 @@ nav ul li img:hover {
   display: inline-block;
   border: none;
 }
+/* Estilos para a imagem de fundo */
 .backImage {
   width: 50px;
   margin-left: 50px;
   margin-top: 20px;
   opacity: 0.8;
 }
+/* Estilos para o título */
 .title {
   color: #f7f197;
   font-weight: 800;
   font-size: x-large;
   margin-left: 100px;
 }
+/* Estilos para a seção "about" */
 .about {
   text-decoration: none;
   color: #03045e;
