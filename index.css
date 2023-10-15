@@ -1,23 +1,24 @@
+/* Define estilos básicos para o corpo da página */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   background-color: #fbf8cc;
 }
-
+/* Estilos para a barra de navegação */
 nav {
   text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+/* Define estilos para a lista não ordenada dentro da barra de navegação */
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
 }
-
+/* Estilos para os links na barra de navegação */
 .links {
   text-decoration: none;
   color: #03045e;
@@ -31,33 +32,38 @@ nav ul {
   display: inline-block;
   border: none;
 }
-
+/* Estilos quando o mouse passa por cima dos links na barra de navegação */
 .links:hover {
   background-color: #f5ee84;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
+/* Estilos para o conteudo escrito da página */
 .content {
   text-align: end;
   display: flex;
   justify-content: space-around;
   padding: 45px;
 }
+/* Estilos para as imagens dentro da lista da barra de navegação */
 nav ul li img {
   width: 20px;
   height: 20px;
   margin: 20px;
 }
+/* Estilos quando o mouse passa por cima das imagens na barra de navegação */
 nav ul li img:hover {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
+/* Estilos para o nome na barra de navegação */
 .name {
   margin-left: 20px;
   color: #03045e;
   font-family: "Poppins", sans-serif;
   padding-left: 55px;
 }
+/* Estilos para a imagem - foto - dá página */
 .personalImg {
   height: 400px;
   width: 400px;
@@ -65,6 +71,7 @@ nav ul li img:hover {
   padding: 30px;
   border-radius: 250px;
 }
+/* Estilos para otexto pessoal da página */
 .personalText {
   padding: 20px;
   margin-left: 50px;
